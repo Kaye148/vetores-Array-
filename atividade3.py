@@ -4,14 +4,15 @@ os.system("cls")
 lista_numero = []
 
 for i in range(5):
-    numero = int(input("digite um número: "))
+    numero = float(input("digite um número: "))
     lista_numero.append(numero)
 
-numero_menor == -
-numero_maior == +1
+numero_menor = min(numeros)
+numero_maior = max(numeros)
 
-print(f"o menor numero é {lista_numero_menor: }")
-print(f"o  maior número é {lista_numero_maior: }")
+print(f"o menor numero é {numero_menor: }")
+print(f"o  maior número é {numero_maior: }")
+
 
 
 
